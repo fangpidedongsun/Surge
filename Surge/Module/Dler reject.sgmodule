@@ -158,3 +158,9 @@
 
 # > 高德
 ^https?:\/\/m5.amap.com\/ws\/valueadded\/ - reject
+
+# > 中国电信
+^https?:\/\/image1.chinatelecom-ec.com\/images\/.+\/\d{13}.jpg - reject
+
+# > 网易蜗牛读书
+^https?://p\.du\.163\.com/readtime/info.json url reject
