@@ -163,4 +163,8 @@
 ^https?:\/\/image1.chinatelecom-ec.com\/images\/.+\/\d{13}.jpg - reject
 
 # > 网易蜗牛读书
-^https?://p\.du\.163\.com/readtime/info.json url reject
+^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
+^https?:\/\/p\.du\.163\.com\/ad\/ - reject
+
+# > 中国移动
+^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
